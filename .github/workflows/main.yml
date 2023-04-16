@@ -50,7 +50,7 @@ jobs:
           server: winweb20.servicehoster.ch
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASS }}
-          local-dir: ./public/
+          local-dir: docs
           protocol: ftp
           port: 21
           #server-dir: /dta22/natalia/beta
